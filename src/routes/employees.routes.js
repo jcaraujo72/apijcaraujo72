@@ -5,6 +5,9 @@ const router = Router()
 /**
  * @swagger
  * components:
+ *  securitySchemes:
+ *    cors_auth:
+ *      type: oauth2
  *  schemas:
  *    employee:
  *       type: object
