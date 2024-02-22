@@ -2,7 +2,7 @@ import { DB_HOST , PORT } from './config.js'
 
 
 
-
+ // const cosa = "http://"+DB_HOST+":"+PORT 
 
 
 export const options = {
@@ -15,7 +15,7 @@ export const options = {
         },
         servers: [
         {
-            url: "http://localhost:4000"
+            url: "http://"+DB_HOST+":"+PORT 
         }
 
         ]
