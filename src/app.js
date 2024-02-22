@@ -1,7 +1,7 @@
 import express from "express"
 import employeesRoutes from './routes/employees.routes.js'
 import indexRoutes from './routes/index.routes.js'
-import cors from 'cors'
+import cors from 'cors'  // new
 // SWAGGER
 import swaggerUI from 'swagger-ui-express'
 import swaggerJsDoc from 'swagger-jsdoc'

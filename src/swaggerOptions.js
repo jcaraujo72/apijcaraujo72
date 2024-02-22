@@ -1,4 +1,4 @@
-import { DB_HOST , PORT } from './config.js'
+import { DB_HOST , PORT, DB_PORT } from './config.js'
 
 
 
@@ -15,7 +15,7 @@ export const options = {
         },
         servers: [
         {
-            url: "http://"+DB_HOST+":"+PORT 
+            url: "http://"+DB_HOST+":"+PORT
         }
 
         ]

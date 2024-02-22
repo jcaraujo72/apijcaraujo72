@@ -38,6 +38,9 @@ const router = Router()
  *                type: array
  *                items:
  *                  $ref: '#/components/schemas/employee'
+ *   security:
+ *     - cors_auth:
+ *         - cors.r  
  */
 
 router.get ('/api/employees', getEmployees )
