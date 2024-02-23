@@ -16,7 +16,7 @@ export const options = {
         servers: [
         {
            // url: "http://"+DB_HOST+":"+PORT
-           url: "https://"+"apijcaraujo72-production.up.railway.app:"+PORT
+           url: "https://"+"apijcaraujo72-production.up.railway.app"
         }
 
         ]
