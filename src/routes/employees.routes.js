@@ -5,9 +5,6 @@ const router = Router()
 /**
  * @swagger
  * components:
- *  securitySchemes:
- *    cors_auth:
- *      type: oauth2
  *  schemas:
  *    employee:
  *       type: object
@@ -41,9 +38,6 @@ const router = Router()
  *                type: array
  *                items:
  *                  $ref: '#/components/schemas/employee'
- *   security:
- *     - cors_auth:
- *         - cors.r  
  */
 
 router.get ('/api/employees', getEmployees )
